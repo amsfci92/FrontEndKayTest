@@ -1,0 +1,88 @@
+.logo {
+    width: 200px;
+}
+
+.logo-container {
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center;
+}
+.username {
+    display: flex; 
+    justify-content: center;
+}
+
+.username > label, .username > input {
+    padding: 5px ;
+    border: 0px solid black;
+    height:40px ;
+}
+
+.username > label{
+    color: #C18E2C;
+    background: #2E5E2E;
+    width: 30%;
+    text-align: center;
+}
+
+.username > input {  
+    width: 70%;
+    color: #2E5E2E;
+    background: #C18E2C;
+}
+
+.password {
+    display: flex; 
+    justify-content: center;
+}
+
+.password > label, .password > input {
+    padding: 5px ;
+    border: 0px solid black;
+    height:40px ;
+}
+
+.password > label{
+    color: #C18E2C;
+    background: #2E5E2E;
+    width: 30%;
+    text-align: center;
+}
+
+.password > input {  
+    width: 70%;
+    color: #2E5E2E;
+    background: #C18E2C;
+}
+
+.login, .register { 
+    border: 0px solid black;
+    background: #2E5E2E;
+    color: #C18E2C;
+    padding: 5px;
+}
+
+.login {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.register {
+    width: 58%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.footer > p {
+    text-align: center;
+}
+.login-label {
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    color: #2E5E2E;
+}
